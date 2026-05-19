@@ -3,6 +3,7 @@ D. Actividades de transferencia del conocimiento.
 Ahora que has comprendido cómo funcionan los operadores de comparación, los  operadores lógicos y las estructuras condicionales en programación, es momento de  aplicar estos conocimientos en situaciones más cercanas a la vida real. 
 Los siguientes ejercicios están diseñados para que analices un problema, determines las  condiciones necesarias y construyas la solución en código. Recuerda que en esta etapa  no basta con repetir lo visto en clase: deberás pensar cómo combinar lo aprendido para  resolver los diferentes escenarios. 
 Actividades de aprendizaje: 
+
 1. Acceso a un sistema 
 Un sistema debe permitir el acceso a un usuario si cumple estas condiciones: 
 • El nombre de usuario es "admin". 
