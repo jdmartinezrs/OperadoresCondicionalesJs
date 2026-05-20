@@ -39,6 +39,29 @@ if (esEstudiante == true) {
 }
 */
 
+/**3. Clasificación de números 
+Crea un programa que pida un número entero y muestre: 
+• "Número positivo" si el número es mayor que 0. 
+• "Número negativo" si es menor que 0. 
+• "Cero" si es igual a 0. 
+Extensión: ¿Cómo cambiaría la solución si quieres que, 
+además, se verifique si el  número es par o impar?  */
+/*
+numeroEntero = parseInt(prompt("Ingrese un número "))
+if (numeroEntero < 0) {
+  console.log("Número Negativo")
+} else if (numeroEntero > 0) {
+  console.log("Número Positívo")
+} else if (numeroEntero == 0) {
+}
+switch (numeroEntero) {
+  case numeroEntero % 2 == 0:
+    console.log("Número Par")
+    break;
+  case numeroEntero % 2 != 0:
+    console.log("Número Impar")
+}*/
+
 
 
 
