@@ -6,7 +6,7 @@ Un sistema debe permitir el acceso a un usuario si cumple estas condiciones:
 Si no cumple las dos condiciones, debe mostrar "Acceso denegado". 
 Pregunta de análisis: ¿Qué operador lógico usarías para verificar que se cumplan  ambas condiciones? 
  */
-/*
+
 const nombreUsuario = "Admin"
 const password = "1234"
 
@@ -14,7 +14,7 @@ let opcionNombreUsuario = prompt("Ingrese el nombre de usuario")
 let opcionPassword = prompt("Ingrese su contraseña")
 if (!opcionNombreUsuario == nombreUsuario || !opcionPassword == password) {
   console.log("Credenciales incorrectas !!!")
-}*/
+}
 
 /**2. Calcular precio de entradas al cine 
 Un cine aplica las siguientes reglas: 
@@ -22,13 +22,12 @@ Un cine aplica las siguientes reglas:
 • Si es mayor de 18, el valor es 10000.
 GFPI-F-135 V04 
   
-
 • Si el cliente es estudiante (condición adicional), 
 se le aplica un descuento del 20% al valor de la entrada. 
 Pregunta de análisis:
 ¿Qué estructura condicional usarías para resolver este caso: 
 if else if-else o switch? ¿Por qué?  */
-/*
+
 let valorEntrada = 5000
 esEstudiante = parseFloat(prompt("¿Es usted estudiante? true/false"))
 if (esEstudiante == true) {
@@ -37,7 +36,7 @@ if (esEstudiante == true) {
 } else {
   console.log("La entrada para alguien que no es estudiante equivale a : " + valorEntrada)
 }
-*/
+
 
 /**3. Clasificación de números 
 Crea un programa que pida un número entero y muestre: 
@@ -46,7 +45,7 @@ Crea un programa que pida un número entero y muestre:
 • "Cero" si es igual a 0. 
 Extensión: ¿Cómo cambiaría la solución si quieres que, 
 además, se verifique si el  número es par o impar?  */
-/*
+
 numeroEntero = parseInt(prompt("Ingrese un número "))
 if (numeroEntero < 0) {
   console.log("Número Negativo")
@@ -60,7 +59,7 @@ switch (numeroEntero) {
     break;
   case numeroEntero % 2 != 0:
     console.log("Número Impar")
-}*/
+}
 
 /**
  4. Menú de opciones 
@@ -72,7 +71,7 @@ Un cajero automático presenta el siguiente menú:
 Crea un programa con switch que muestre la acción correspondiente según el número  ingresado. 
 Pregunta de análisis: ¿Qué pasaría si el usuario ingresa un número que no está entre 1  y 4? 
  */
-/*
+
 console.log("Ingrese: 1. Consultar saldo")
 console.log("Ingrese: 2. Retirar dinero")
 console.log("Ingrese: 3. Depositar dinero ")
@@ -95,7 +94,7 @@ switch(opcionUsuario){
   default:
     console.log("Valor erroneo")
 }
-*/
+
 
 /**
  * 5. Sistema de calificaciones con condiciones lógicas 
@@ -107,9 +106,9 @@ Si no cumple ambas condiciones, debe mostrar "Reprobado".
 
 const clasesTotales = 40
 
-notaEstudiante = parseFloat(prompt("Ingrese la nota del estudiante"))
+let notaEstudiante = parseFloat(prompt("Ingrese la nota del estudiante"))
 
-asistenciasEstudiante = parseInt(prompt("Ingrese las clases asistidas del estudiante "))
+let asistenciasEstudiante = parseInt(prompt("Ingrese las clases asistidas del estudiante "))
 
 let porcentaje = (asistenciasEstudiante / clasesTotales) * 100
 
