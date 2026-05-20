@@ -97,4 +97,24 @@ switch(opcionUsuario){
 }
 */
 
+/**
+ * 5. Sistema de calificaciones con condiciones lógicas 
+Un estudiante aprueba una materia si: 
+• Su nota final es mayor o igual a 60 y 
+• Su asistencia es mayor o igual al 80%. 
+Si no cumple ambas condiciones, debe mostrar "Reprobado".
+ */
 
+const clasesTotales = 40
+
+notaEstudiante = parseFloat(prompt("Ingrese la nota del estudiante"))
+
+asistenciasEstudiante = parseInt(prompt("Ingrese las clases asistidas del estudiante "))
+
+let porcentaje = (asistenciasEstudiante / clasesTotales) * 100
+
+if (notaEstudiante >= 60 && porcentaje >= 80) {
+  console.log("El estudiante APRUEBA")
+} else {
+  console.log("El estudiante REPRUEBA")
+}
