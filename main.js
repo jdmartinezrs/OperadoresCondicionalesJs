@@ -62,6 +62,39 @@ switch (numeroEntero) {
     console.log("Número Impar")
 }*/
 
-
+/**
+ 4. Menú de opciones 
+Un cajero automático presenta el siguiente menú: 
+1. Consultar saldo 
+2. Retirar dinero 
+3. Depositar dinero 
+4. Salir 
+Crea un programa con switch que muestre la acción correspondiente según el número  ingresado. 
+Pregunta de análisis: ¿Qué pasaría si el usuario ingresa un número que no está entre 1  y 4? 
+ */
+/*
+console.log("Ingrese: 1. Consultar saldo")
+console.log("Ingrese: 2. Retirar dinero")
+console.log("Ingrese: 3. Depositar dinero ")
+console.log("Ingrese: 4. Salir ")
+opcionUsuario = parseInt(prompt("Ingrese un nuúmero según corresponda"))
+switch(opcionUsuario){
+  case 1:
+    console.log("Consultando saldo")
+    break;
+  case 2:
+    console.log("Retirando dinero")
+    break;
+  case 3:
+    console.log("Depositando dinero")
+    break;
+  case 4:
+    console.log("Saliendo")
+    break;
+  
+  default:
+    console.log("Valor erroneo")
+}
+*/
 
 
